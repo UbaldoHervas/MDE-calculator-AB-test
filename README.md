@@ -9,4 +9,8 @@ This calculator is useful to determine the amount of minimum detectable effect y
 
 How? Based on the population, you can calculate your MDE properly. I used a z-test approach to calculate this. But I think it works nicely in other statistical test methods.
 
-Remember: the more traffic your test gets, the less MDE you need. I recreated a visualization to show how it works (10 weeks maximum).
+Warnings:
+
+- The more traffic your test gets, the less MDE you need. I recreated a visualization to show how it works (10 weeks maximum).
+- The calculator assumes linearity (CR and traffic). Maybe I will modify this assumption in the future. Take this into account if you calculate MDE during n weeks.
+- Z-test is used to calculate this. Be aware of using different statistical test methods could need different approaches.
